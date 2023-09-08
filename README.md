@@ -1,38 +1,84 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Space Tourism Website - Frontend Mentor Challenge Solution
 
-## Getting Started
+This is my solution to the [Space Tourism Website challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/space-tourism-multipage-website-gRWj1URZ3). Frontend Mentor challenges are a great way to improve your coding skills by building realistic projects.
 
-First, run the development server:
+## Table of Contents
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+- [Overview](#overview)
+  - [The Challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My Process](#my-process)
+  - [Built With](#built-with)
+  - [What I Learned](#what-i-learned)
+  - [Continued Development](#continued-development)
+  - [Useful Resources](#useful-resources)
+- [Author](#author)
+- [Acknowledgments](#acknowledgments)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Overview
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+### The Challenge
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+In this challenge, I successfully completed the following tasks:
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+- Created a responsive design for the website to accommodate various screen sizes.
+- Implemented hover states for interactive elements.
+- Implemented dynamic routing to allow users to view different pages and toggle between tabs for new information.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Screenshot
 
-## Learn More
+![Space Tourism Website Desktop Screenshot](./public/desktop-sc.png)
+![Space Tourism Website Mobile Screenshot](./public/mobile-sc.png)
 
-To learn more about Next.js, take a look at the following resources:
+### Links
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [Solution URL](https://github.com/vashu-kashyap/space-tourism-website)
+- [Live Site URL](https://space-tourism-website-azure.vercel.app/crew)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## My Process
 
-## Deploy on Vercel
+### Built With
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+I built this project using the following technologies and techniques:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Semantic HTML5 markup
+- CSS custom properties (CSS variables)
+- Flexbox and CSS Grid for layout
+- Mobile-first development approach
+- [React](https://reactjs.org/) - JavaScript library
+- [Next.js](https://nextjs.org/) - React framework
+- [Tailwind CSS](https://tailwindcss.com/) - Utility-first CSS framework for styles
+
+### What I Learned
+
+While working on this project, I gained valuable experience in the following areas:
+
+- Dynamic routing in Next.js
+- Deployment of a Next.js application on Vercel
+- Building fully responsive web pages
+- Rendering content dynamically based on user interactions
+
+### Continued Development
+
+In future projects, I plan to focus on the following areas for continued development:
+
+- Further refining my responsive design skills
+- Exploring advanced Next.js features
+- Improving my code organization and maintainability
+
+### Useful Resources
+
+During this challenge, I found the following resources helpful:
+
+- [Figma Design File](https://www.figma.com/community/file/1222868380190526431) - You can access the Figma design file I used for this project to help with the design and layout.
+
+## Author
+
+- Linktr.ee [Im.vashukashyap](https://linktr.ee/Im.vashukashyap)
+- Linkedin - [@Im.vashukashyap](https://www.linkedin.com/in/im-vashukashyap/)
+- Instagram - [@Im.vashukashyap](https://www.instagram.com/im.vashukashyap/)
+
+## Acknowledgments
+
+I would like to acknowledge any individuals or resources that contributed to the successful completion of this project. Whether it was inspiration from others' solutions or collaboration in a team, their contributions are greatly appreciated.
