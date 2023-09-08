@@ -2,26 +2,71 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+body {
+  overflow-x: hidden;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+/* Default styles for desktop */
+.hero {
+  background-image: url(/home/background-home-desktop.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.destination {
+  background-image: url(/destination/background-destination-desktop.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.crew {
+  background-image: url(/crew/background-crew-desktop.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.technology {
+  background-image: url(/technology/background-technology-desktop.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  mix-blend-mode: screen;
+}
+
+/* Media query for tablets (e.g., iPad) */
+@media (max-width: 820px) {
+  .hero {
+    background-image: url(/home/background-home-tablet.jpg);
+  }
+
+  .destination {
+    background-image: url(/destination/background-destination-tablet.jpg);
+  }
+
+  .crew {
+    background-image: url(/crew/background-crew-tablet.jpg);
+  }
+  .technology {
+    background-image: url(/technology/background-technology-tablet.jpg);
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+/* Media query for mobile devices */
+@media (max-width: 480px) {
+  .hero {
+    background-image: url(/home/background-home-mobile.jpg);
+  }
+
+  .destination {
+    background-image: url(/destination/background-destination-mobile.jpg);
+  }
+
+  .crew {
+    background-image: url(/crew/background-crew-mobile.jpg);
+  }
+  .technology {
+    background-image: url(/technology/background-technology-mobile.jpg);
+  }
 }
